@@ -63,14 +63,14 @@ Both training and test data sets are split up into subject, activity and feature
 ```{r}
 subjectTrn <- read.table("UCI HAR Dataset/train/subject_train.txt", header = FALSE)
 activityTrn <- read.table("UCI HAR Dataset/train/y_train.txt", header = FALSE)
-featuresTrain <- read.table("UCI HAR Dataset/train/X_train.txt", header = FALSE)
+featuresTrn <- read.table("UCI HAR Dataset/train/X_train.txt", header = FALSE)
 ```
 
 ###Read test data
 ```{r}
 subjectTst <- read.table("UCI HAR Dataset/test/subject_test.txt", header = FALSE)
 activityTst <- read.table("UCI HAR Dataset/test/y_test.txt", header = FALSE)
-featuresTest <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE)
+featuresTst <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE)
 ```
 
 
